@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.summary      = "基于GGCharts的封装" # 项目简介
 
   s.homepage     = "https://github.com/xyl-private/GGChartKit" # 你的主页
-  s.source       = { :git => https://github.com/xyl-private/GGChartKit.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
+  s.source       = { :git => "https://github.com/xyl-private/YLCommonKit.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
   
   #s.public_header_files = "GGChartKit/*.h"
   s.source_files  = "GGChartKit/**/*.{h,m}"
