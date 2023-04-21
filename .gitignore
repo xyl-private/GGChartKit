@@ -1,0 +1,11 @@
+*~
+.DS_Store
+Pods/
+build/
+IPADir/
+Breakpoints_v2.xcbkptlist
+*.xcuserdatad
+*.xcuserstate
+
+Podfile.lock
+UserInterfaceState.xcuserstate
