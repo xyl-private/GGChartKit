@@ -1,4 +1,8 @@
 # GGChart
+
+**说明**
+本库来自[GGCharts](https://github.com/MarcWeigert/GGCharts.git), 本人为方便使用上传到 cocoapods, 如有侵权类联系我,今早更该
+
 **目录 (Table of Contents)**
 
 *   [GGChart](#GGChart)
