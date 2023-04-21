@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
   s.summary      = "基于GGCharts的封装" # 项目简介
 
   s.homepage     = "https://github.com/xyl-private/GGChartKit" # 你的主页
-  s.source       = { :git => "https://github.com/xyl-private/YLCommonKit.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
+  s.source       = { :git => "https://github.com/xyl-private/GGChartKit.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
   
   #s.public_header_files = "GGChartKit/*.h"
-  s.source_files  = "GGChartKit/**/*.{h,m}"
+  s.source_files  = 'GGChartKit/**/*.{h,m,c}'
   
    s.ios.deployment_target = "12.0"
   
-  s.requires_arc = true # 是否启用ARC
+  #s.requires_arc = true # 是否启用ARC
   #s.platform     = :ios, "12.0" #平台及支持的最低版本
   #s.frameworks   = "UIKit", "Foundation", "libc++" #支持的框架
   s.frameworks = "Foundation", "CoreFoundation", "UIKit"
