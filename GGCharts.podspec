@@ -7,13 +7,13 @@
 #
 
 Pod::Spec.new do |s|
-  s.name         = "GGCharts" # 项目名称
+  s.name         = "GGChartKit" # 项目名称
   s.version      = "0.0.1"        # 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT"   # 开源证书
   s.summary      = "基于GGCharts的封装" # 项目简介
 
-  s.homepage     = "https://gitee.com/xFeiQiu/GGCharts" # 你的主页
-  s.source       = { :git => "https://gitee.com/xFeiQiu/GGCharts.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
+  s.homepage     = "https://github.com/xyl-private/GGChartKit" # 你的主页
+  s.source       = { :https://github.com/xyl-private/GGChartKit.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
   
   #s.public_header_files = "GGChartKit/*.h"
   s.source_files  = "GGChartKit/**/*.{h,m}"
